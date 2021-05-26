@@ -26,7 +26,6 @@ public class LongestPalindromicSubstring {
         while (i < s.length()-1-i && s.charAt(i) == s.charAt(s.length()-1-i)){
             i++;
         }
-        boolean a = i == s.length()/2;
-        return a;
+        return i == s.length()/2;
     }
 }
